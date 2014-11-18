@@ -1,0 +1,224 @@
+/*********************************************
+*********************************************/
+
+/******************
+	BODY
+******************/
+body {
+	background: url("../images/header.jpg") no-repeat;
+}
+
+/******************
+	NAVIGATION
+******************/
+
+nav {
+	position: relative;
+	width: 100%;
+	height: 55px;
+	top: 0;
+	padding: 13px 0 0 0;
+	background: rgba(253,253,253,.5);
+	z-index: 99;
+	font-weight: bold;
+}
+
+nav ul {
+	margin: 1% 90px;
+}
+
+nav ul li {
+	display: inline;
+	float: right;
+	font-family: 'open-sans', sans-serif;
+	font-size: 20px;
+	padding-left: 18px;
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'open-sans', sans-serif;
+	font-size: 85%;
+}
+
+.logo {
+	z-index: 99;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	width: 15%;
+}
+
+/******************
+	POST
+******************/
+
+#post {
+	position: relative;
+	top: 120px;
+	z-index: 99;
+	margin: 0 0 20% 15%;
+}
+
+#post h2 {
+	font-weight: bold;
+	font-size: 250%;
+	line-height: 2.5em;
+	font-family: 'open-sans', sans-serif;
+}
+
+#post p {
+	line-height: 2em;
+	font-size: 125%;
+	font-family: 'open-sans', sans-serif;
+}
+
+#post a {
+	position: absolute;
+	margin: 14px 0;
+	background: #208b0a;
+	text-decoration: none;
+	padding: 16px 56px;
+	color: #fff;
+	text-align: center;
+	font-family: 'open-sans', sans-serif;
+	font-size: 130%;
+}
+
+/******************
+	CONTAINER
+******************/
+
+#benefits {
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding: 2% 0 2%;
+	margin-top: 28%;
+	font-family: 'open-sans', sans-serif;
+}
+
+#benefits h3 {
+	color: #f5f5f5;
+	font-size: 49px;
+	font-family: 'open-sans', sans-serif;
+	padding: 0 0 10px;
+
+}
+
+#benefits ul li {
+	font-family: 'open-sans', sans-serif;
+	display: inline-block;
+	padding: 25px 5px 5px;
+	color: #f5f5f5;
+	font-size: 32px;
+}
+
+#container1 {
+	position: relative;
+	margin: 50px 0 0 0;
+	background: #f7f7f7;
+	height: 50%;
+	
+}
+
+#container1 h2 {
+	text-align: center;
+	font-family: 'open-sans', sans-serif;
+	padding: 40px 0 50px;
+	font-size: 45px;
+	color: #888888;
+}
+
+#container1 img {
+	width: 80%;
+	padding: 2% 8% 2%;
+	margin-bottom: 5px;	
+}
+
+#container2 {
+	background: url('../images/blurred.jpg') no-repeat;
+	width: 100%;
+	height: 480px;
+	text-align: center;
+	margin-bottom: 70px
+}
+
+#container2 h2 {
+	font-family: 'open-sans', sans-serif;
+	padding: 4% 0 70px;
+	font-weight: bold;
+	font-size: 47px;
+}
+
+#container2 .step1 {
+	font-family: 'open-sans', sans-serif;
+	font-size: 25px;
+	padding-bottom: 28px;
+}
+
+#container2 .step2 {
+	padding-bottom: 90px;
+	font-family: 'open-sans', sans-serif;
+	font-size: 25px;
+}
+
+#container2 a {
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 3.5em;
+	color: #fff;
+	text-align: center;
+	font-family: 'open-sans', sans-serif;
+	font-size: 1.9em;
+}
+
+#container3 h2 {
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'open-sans', sans-serif;
+	line-height: 18px;
+	color: #888888;
+	font-size: 45px;
+}
+
+.partners li {
+	float: left;
+	width: 15%;
+	margin: 4% 4%;
+	padding: 0;
+	clear: right;
+}
+
+.partners img {
+	width: 50%;
+	height: 10%;
+	border: 1px solid #bababa;
+	padding: 15% 40%;
+}
+
+.footer {
+	position: relative;
+	clear: both;
+	width: 100%;
+	height: 6%;
+	bottom: 0;
+	padding: 13px 0 0 0;
+	text-align: center;
+	background: #333333;
+	border-top: 4px solid #218a0b;
+	float: left;
+}
+
+.footer a {
+	display: inline-block;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	float: left;
+	margin: 50px 0 0 20px;
+	padding: 12px 0 30px 12px;
+}
